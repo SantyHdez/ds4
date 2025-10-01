@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\santy\\source\\repos\\ds4\\Laboratorio 8\\Lab 83\\Lab 83\\Lab 83.csproj",
-      "projectName": "Lab 83",
-      "projectPath": "C:\\Users\\santy\\source\\repos\\ds4\\Laboratorio 8\\Lab 83\\Lab 83\\Lab 83.csproj",
+      "projectUniqueName": "C:\\Users\\santy\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 87\\Laboratorio 87\\Laboratorio 87.csproj",
+      "projectName": "Laboratorio 87",
+      "projectPath": "C:\\Users\\santy\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 87\\Laboratorio 87\\Laboratorio 87.csproj",
       "packagesPath": "C:\\Users\\santy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\santy\\source\\repos\\ds4\\Laboratorio 8\\Lab 83\\Lab 83\\obj\\",
+      "outputPath": "C:\\Users\\santy\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 87\\Laboratorio 87\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
