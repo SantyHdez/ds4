@@ -1,0 +1,10 @@
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\bin\Debug\Laboratorio 131.exe.config
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\bin\Debug\Laboratorio 131.exe
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\bin\Debug\Laboratorio 131.pdb
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio 131.csproj.AssemblyReference.cache
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio_131.Form1.resources
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio_131.Properties.Resources.resources
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio 131.csproj.GenerateResource.cache
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio 131.csproj.CoreCompileInputs.cache
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio 131.exe
+C:\Users\santy\source\repos\ds4\Laboratorio 13\Laboratorio 131\Laboratorio 131\Laboratorio 131\obj\Debug\Laboratorio 131.pdb
