@@ -1,0 +1,10 @@
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\bin\Debug\Laboratorio 12.exe.config
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\bin\Debug\Laboratorio 12.exe
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\bin\Debug\Laboratorio 12.pdb
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio 12.csproj.AssemblyReference.cache
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio_12.Form1.resources
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio_12.Properties.Resources.resources
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio 12.csproj.GenerateResource.cache
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio 12.csproj.CoreCompileInputs.cache
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio 12.exe
+C:\Users\santy\source\repos\ds4\Laboratorio 12\Laboratorio 12\Laboratorio 12\obj\Debug\Laboratorio 12.pdb
