@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|c:\\users\\alber\\source\\repos\\ds4\\laboratorio 16\\laboratorio 16\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|solutionrelative:webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|c:\\users\\alber\\source\\repos\\ds4\\laboratorio 16\\laboratorio 16\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|solutionrelative:webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|c:\\users\\alber\\source\\repos\\ds4\\laboratorio 16\\laboratorio 16\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|solutionrelative:default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|c:\\users\\alber\\source\\repos\\ds4\\laboratorio 16\\laboratorio 16\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|c:\\users\\alber\\source\\repos\\ds4\\laboratorio 16\\laboratorio 16\\webform1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58541089-FDFB-4AB8-98BC-024EB92FC676}|Laboratorio 16.csproj|solutionrelative:webform1.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "WebForm1.aspx",
+              "ToolTip": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\WebForm1.aspx",
+              "RelativeToolTip": "WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-03T21:01:09.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebForm1.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\WebForm1.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebForm1.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\WebForm1.aspx.designer.cs",
+              "RelativeToolTip": "WebForm1.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:05:54.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "WebForm1.aspx.cs",
+              "ToolTip": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\WebForm1.aspx.cs",
+              "RelativeToolTip": "WebForm1.aspx.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAAALkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T21:04:14.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Default.aspx.cs",
+              "ToolTip": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\Default.aspx.cs",
+              "RelativeToolTip": "Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T20:50:47.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Users\\alber\\source\\repos\\ds4\\Laboratorio 16\\Laboratorio 16\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-03T20:39:30.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
