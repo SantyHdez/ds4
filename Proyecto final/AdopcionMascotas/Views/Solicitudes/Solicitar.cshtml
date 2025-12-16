@@ -1,0 +1,89 @@
+﻿@model AdopcionMascotas.Models.Mascota
+
+@{
+    ViewBag.Title = "Solicitar Adopción";
+    var mascota = ViewBag.Mascota as AdopcionMascotas.Models.Mascota;
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <i class="glyphicon glyphicon-heart"></i> Solicitud de Adopción
+                </h3>
+            </div>
+            <div class="panel-body">
+                @if (mascota != null)
+                {
+                    <!-- Información de la mascota -->
+                    <div class="well">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="@mascota.FotoUrl" alt="@mascota.Nombre" class="img-thumbnail" style="width: 100%;">
+                            </div>
+                            <div class="col-md-8">
+                                <h4><strong>@mascota.Nombre</strong></h4>
+                                <p>
+                                    <strong>Especie:</strong> @mascota.Especie<br />
+                                    <strong>Raza:</strong> @(mascota.Raza ?? "Mestizo")<br />
+                                    <strong>Edad:</strong> @(mascota.Edad ?? 0) años<br />
+                                    <strong>Tamaño:</strong> @mascota.Tamanio
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulario de solicitud -->
+                    <h4>Completa tus datos para solicitar la adopción:</h4>
+                    <hr />
+
+                    <form action="@Url.Action("Solicitar", "Solicitudes")" method="post" class="form-horizontal">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="idMascota" value="@mascota.Id" />
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Nombre Completo *</label>
+                            <div class="col-md-9">
+                                <input type="text" name="nombreCompleto" class="form-control" required placeholder="Tu nombre completo" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Correo Electrónico *</label>
+                            <div class="col-md-9">
+                                <input type="email" name="email" class="form-control" required placeholder="tu@email.com" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">Teléfono</label>
+                            <div class="col-md-9">
+                                <input type="tel" name="telefono" class="form-control" placeholder="555-1234" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">¿Por qué quieres adoptar?</label>
+                            <div class="col-md-9">
+                                <textarea name="comentarios" class="form-control" rows="4"
+                                          placeholder="Cuéntanos sobre tu hogar, experiencia con mascotas, etc."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button type="submit" class="btn btn-success btn-lg">
+                                    <i class="glyphicon glyphicon-ok"></i> Enviar Solicitud
+                                </button>
+                                <a href="@Url.Action("Details", "Mascotas", new { id = mascota.Id })" class="btn btn-default btn-lg">
+                                    <i class="glyphicon glyphicon-remove"></i> Cancelar
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>

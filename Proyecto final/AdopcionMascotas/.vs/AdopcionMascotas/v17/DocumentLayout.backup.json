@@ -1,0 +1,363 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\mascotas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\mascotas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\solicitudes\\solicitar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\solicitudes\\solicitar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|c:\\users\\santy\\source\\repos\\ds4\\proyecto final\\adopcionmascotas\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|c:\\users\\santy\\source\\repos\\ds4\\proyecto final\\adopcionmascotas\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\admin\\reportes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\admin\\reportes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\solicitudes\\missolicitudes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\solicitudes\\missolicitudes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\admin\\solicitudes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\admin\\solicitudes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:controllers\\mascotascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\solicitudes\\confirmacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\solicitudes\\confirmacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\mascotas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\mascotas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\views\\solicitudes\\buscarsolicitudes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:views\\solicitudes\\buscarsolicitudes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\models\\refugio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:models\\refugio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{489F6E36-DFDE-4EF4-AB1C-1A8FD44BB393}|AdopcionMascotas.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 323,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mascota.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Mascota.cs",
+              "RelativeDocumentMoniker": "Models\\Mascota.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Mascota.cs",
+              "RelativeToolTip": "Models\\Mascota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T21:03:04.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Mascotas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Mascotas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Index.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAIYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T05:02:19.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reportes.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Admin\\Reportes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Reportes.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Admin\\Reportes.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Reportes.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T04:03:32.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Solicitudes.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Admin\\Solicitudes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Solicitudes.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Admin\\Solicitudes.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Solicitudes.cshtml",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAowJsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T03:44:34.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Admin\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\index.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Admin\\index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T03:43:55.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAswM8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T03:42:39.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MisSolicitudes.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\MisSolicitudes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Solicitudes\\MisSolicitudes.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\MisSolicitudes.cshtml",
+              "RelativeToolTip": "Views\\Solicitudes\\MisSolicitudes.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAADMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T00:00:28.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Mascotas\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Mascotas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Mascotas\\Details.cshtml",
+              "RelativeToolTip": "Views\\Mascotas\\Details.cshtml",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAgwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T23:48:42.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BuscarSolicitudes.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\BuscarSolicitudes.cshtml",
+              "RelativeDocumentMoniker": "Views\\Solicitudes\\BuscarSolicitudes.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\BuscarSolicitudes.cshtml",
+              "RelativeToolTip": "Views\\Solicitudes\\BuscarSolicitudes.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T23:45:29.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Confirmacion.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\Confirmacion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Solicitudes\\Confirmacion.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\Confirmacion.cshtml",
+              "RelativeToolTip": "Views\\Solicitudes\\Confirmacion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T23:44:39.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Solicitar.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\Solicitar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Solicitudes\\Solicitar.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Solicitudes\\Solicitar.cshtml",
+              "RelativeToolTip": "Views\\Solicitudes\\Solicitar.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAFgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T23:42:14.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SolicitudesController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\SolicitudesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SolicitudesController.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\SolicitudesController.cs",
+              "RelativeToolTip": "Controllers\\SolicitudesController.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAADwvwkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:39:46.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MascotasController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\MascotasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MascotasController.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\MascotasController.cs",
+              "RelativeToolTip": "Controllers\\MascotasController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:31:09.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAIwFYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T23:18:20.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-14T23:18:04.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:15:35.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Solicitud.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Solicitud.cs",
+              "RelativeDocumentMoniker": "Models\\Solicitud.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Solicitud.cs",
+              "RelativeToolTip": "Models\\Solicitud.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:09:55.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Refugio.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Refugio.cs",
+              "RelativeDocumentMoniker": "Models\\Refugio.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Refugio.cs",
+              "RelativeToolTip": "Models\\Refugio.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:08:34.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:08:02.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T23:06:45.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\santy\\source\\repos\\ds4\\Proyecto final\\AdopcionMascotas\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-12-14T23:05:16.429Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

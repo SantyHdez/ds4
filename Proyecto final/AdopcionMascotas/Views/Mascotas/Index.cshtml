@@ -1,0 +1,170 @@
+﻿@model IEnumerable<AdopcionMascotas.Models.Mascota>
+
+@{
+    ViewBag.Title = "Mascotas Disponibles";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>
+            <i class="glyphicon glyphicon-th-large"></i> Mascotas Disponibles para Adopción
+        </h2>
+        <hr />
+    </div>
+</div>
+
+<!-- Filtros -->
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-md-12">
+        <div class="well">
+            <form method="get" action="@Url.Action("Index", "Mascotas")" class="form-inline">
+                <div class="form-group" style="margin-right: 15px;">
+                    <label style="margin-right: 10px;">Filtrar por especie:</label>
+                    <a href="@Url.Action("Index", "Mascotas")"
+                       class="btn btn-default @(string.IsNullOrEmpty(ViewBag.EspecieSeleccionada) ? "active" : "")">
+                        Todas
+                    </a>
+                    <a href="@Url.Action("Index", "Mascotas", new { especie = "Perro" })"
+                       class="btn btn-warning @(ViewBag.EspecieSeleccionada == "Perro" ? "active" : "")">
+                        <i class="glyphicon glyphicon-star"></i> Perros
+                    </a>
+                    <a href="@Url.Action("Index", "Mascotas", new { especie = "Gato" })"
+                       class="btn btn-info @(ViewBag.EspecieSeleccionada == "Gato" ? "active" : "")">
+                        <i class="glyphicon glyphicon-star"></i> Gatos
+                    </a>
+                    <a href="@Url.Action("Index", "Mascotas", new { especie = "Otro" })"
+                       class="btn btn-success @(ViewBag.EspecieSeleccionada == "Otro" ? "active" : "")">
+                        <i class="glyphicon glyphicon-star"></i> Otros
+                    </a>
+                </div>
+
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Mascotas en formato de tarjetas -->
+<div class="row">
+    @if (Model != null && Model.Any())
+    {
+        <div class="col-md-12" style="margin-bottom: 20px;">
+            <p class="text-muted">
+                <strong>@Model.Count()</strong> mascota(s) encontrada(s)
+                @if (!string.IsNullOrEmpty(ViewBag.EspecieSeleccionada))
+                {
+                    <text> - Filtrando por: <strong>@ViewBag.EspecieSeleccionada</strong></text>
+                }
+            </p>
+        </div>
+
+        foreach (var mascota in Model)
+        {
+            <div class="col-md-4" style="margin-bottom: 30px;">
+                <div class="panel panel-default" style="border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); height: 100%;">
+                    <div class="panel-body" style="padding: 0;">
+                        <!-- Imagen de la mascota -->
+                        <div style="position: relative;">
+                            <img src="@mascota.FotoUrl" alt="@mascota.Nombre"
+                                 style="width: 100%; height: 280px; object-fit: cover;">
+
+                           
+                        </div>
+
+                        <!-- Información de la mascota -->
+                        <div style="padding: 20px;">
+                            <h3 style="margin-top: 0; margin-bottom: 15px;">
+                                <strong>@mascota.Nombre</strong>
+                                @if (!string.IsNullOrEmpty(mascota.Sexo))
+                                {
+                                    <small class="text-muted">
+                                        @(mascota.Sexo == "Macho" ? "♂" : "♀")
+                                    </small>
+                                }
+                            </h3>
+
+                            <div style="margin-bottom: 15px;">
+                                <p style="margin: 5px 0;">
+                                    <i class="glyphicon glyphicon-tag"></i>
+                                    <strong>Raza:</strong> @(mascota.Raza ?? "Mestizo")
+                                </p>
+                                <p style="margin: 5px 0;">
+                                    <i class="glyphicon glyphicon-time"></i>
+                                    <strong>Edad:</strong> @(mascota.Edad ?? 0) año(s)
+                                </p>
+                                <p style="margin: 5px 0;">
+                                    <i class="glyphicon glyphicon-resize-small"></i>
+                                    <strong>Tamaño:</strong> @mascota.Tamanio
+                                </p>
+                                @if (mascota.Refugio != null)
+                                {
+                                    <p style="margin: 5px 0;">
+                                        <i class="glyphicon glyphicon-home"></i>
+                                        <strong>Refugio:</strong> @mascota.Refugio.Nombre
+                                    </p>
+                                }
+                            </div>
+
+                            <p style="color: #666; min-height: 60px; margin-bottom: 15px;">
+                                @if (!string.IsNullOrEmpty(mascota.Descripcion))
+                                {
+                                    if (mascota.Descripcion.Length > 120)
+                                    {
+                                        @mascota.Descripcion.Substring(0, 120)<text>...</text>
+                                    }
+                                    else
+                                    {
+                                        @mascota.Descripcion
+                                    }
+                                }
+                            </p>
+
+                            <!-- Botones de acción -->
+                            <div class="btn-group btn-group-justified">
+                                <a href="@Url.Action("Details", "Mascotas", new { id = mascota.Id })"
+                                   class="btn btn-info">
+                                    <i class="glyphicon glyphicon-info-sign"></i> Ver Detalles
+                                </a>
+                                @if (mascota.Estado == "Disponible")
+                                {
+                                    <a href="@Url.Action("Solicitar", "Solicitudes", new { id = mascota.Id })"
+                                       class="btn btn-success">
+                                        <i class="glyphicon glyphicon-heart"></i> Adoptar
+                                    </a>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-md-12">
+            <div class="alert alert-warning text-center" style="padding: 40px;">
+                <h3><i class="glyphicon glyphicon-exclamation-sign"></i> No se encontraron mascotas</h3>
+                <p>No hay mascotas disponibles con los filtros seleccionados.</p>
+                <a href="@Url.Action("Index", "Mascotas")" class="btn btn-primary">
+                    <i class="glyphicon glyphicon-refresh"></i> Ver Todas
+                </a>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Información adicional -->
+<div class="row" style="margin-top: 40px;">
+    <div class="col-md-12">
+        <div class="panel panel-info">
+            <div class="panel-body text-center">
+                <h4><i class="glyphicon glyphicon-info-sign"></i> ¿Cómo Adoptar?</h4>
+                <p>
+                    Encuentra la mascota perfecta para ti, revisa su información y haz click en
+                    <strong>"Adoptar"</strong>. Completa el formulario de solicitud y nos pondremos
+                    en contacto contigo para coordinar la visita y adopción.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

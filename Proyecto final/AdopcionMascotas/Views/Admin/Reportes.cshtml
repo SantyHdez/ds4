@@ -1,0 +1,224 @@
+﻿@{
+    ViewBag.Title = "Reportes y Estadísticas";
+}
+
+<!-- Cargar Chart.js desde CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>
+            <i class="glyphicon glyphicon-stats"></i> Reportes y Estadísticas
+        </h2>
+        <hr />
+    </div>
+</div>
+
+
+<!-- Gráficos -->
+<div class="row">
+    <!-- Gráfico: Mascotas por Estado -->
+    <div class="col-md-6" style="margin-bottom: 30px;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <i class="glyphicon glyphicon-pie-chart"></i> Mascotas por Estado
+                </h4>
+            </div>
+            <div class="panel-body">
+                <canvas id="chartEstados" height="250"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gráfico: Especies más Adoptadas -->
+    <div class="col-md-6" style="margin-bottom: 30px;">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <i class="glyphicon glyphicon-list-alt"></i> Especies Adoptadas
+                </h4>
+            </div>
+            <div class="panel-body">
+                <canvas id="chartEspecies" height="250"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Razas Más Adoptadas -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <i class="glyphicon glyphicon-star"></i> Top Razas Más Adoptadas
+                </h4>
+            </div>
+            <div class="panel-body">
+                @if (!string.IsNullOrEmpty(ViewBag.RazasLabels))
+                {
+                    <canvas id="chartRazas" height="100"></canvas>
+                }
+                else
+                {
+                    <div class="alert alert-info">
+                        No hay suficientes datos de adopciones para mostrar este reporte.
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Adopciones por Mes -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <i class="glyphicon glyphicon-calendar"></i> Adopciones por Mes
+                </h4>
+            </div>
+            <div class="panel-body">
+                @if (!string.IsNullOrEmpty(ViewBag.MesesLabels))
+                {
+                    <canvas id="chartMeses" height="100"></canvas>
+                }
+                else
+                {
+                    <div class="alert alert-info">
+                        No hay adopciones registradas en los últimos 6 meses.
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center" style="margin-top: 30px;">
+    <a href="@Url.Action("Index", "Admin")" class="btn btn-default btn-lg">
+        <i class="glyphicon glyphicon-arrow-left"></i> Volver al Panel
+    </a>
+</div>
+
+<script>
+    // Gráfico: Mascotas por Estado
+    var ctxEstados = document.getElementById('chartEstados').getContext('2d');
+    new Chart(ctxEstados, {
+        type: 'doughnut',
+        data: {
+            labels: ['Disponibles', 'En Proceso', 'Adoptadas'],
+            datasets: [{
+                data: [@ViewBag.Disponibles, @ViewBag.EnProceso, @ViewBag.Adoptadas],
+                backgroundColor: ['#5cb85c', '#f0ad4e', '#5bc0de']
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            plugins: {
+                legend: {
+                    position: 'bottom'
+                }
+            }
+        }
+    });
+
+    // Gráfico: Especies Adoptadas
+    @if (!string.IsNullOrEmpty(ViewBag.EspeciesLabels))
+    {
+        <text>
+        var ctxEspecies = document.getElementById('chartEspecies').getContext('2d');
+        new Chart(ctxEspecies, {
+            type: 'pie',
+            data: {
+                labels: [@Html.Raw(ViewBag.EspeciesLabels)],
+                datasets: [{
+                    data: [@Html.Raw(ViewBag.EspeciesDatos)],
+                    backgroundColor: ['#ff6384', '#36a2eb', '#ffce56', '#4bc0c0', '#9966ff']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+        </text>
+    }
+
+    // Gráfico: Razas Más Adoptadas
+    @if (!string.IsNullOrEmpty(ViewBag.RazasLabels))
+    {
+        <text>
+        var ctxRazas = document.getElementById('chartRazas').getContext('2d');
+        new Chart(ctxRazas, {
+            type: 'bar',
+            data: {
+                labels: [@Html.Raw(ViewBag.RazasLabels)],
+                datasets: [{
+                    label: 'Adopciones',
+                    data: [@Html.Raw(ViewBag.RazasDatos)],
+                    backgroundColor: '#5cb85c'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+        </text>
+    }
+
+    // Gráfico: Adopciones por Mes
+    @if (!string.IsNullOrEmpty(ViewBag.MesesLabels))
+    {
+        <text>
+        var ctxMeses = document.getElementById('chartMeses').getContext('2d');
+        new Chart(ctxMeses, {
+            type: 'line',
+            data: {
+                labels: [@Html.Raw(ViewBag.MesesLabels)],
+                datasets: [{
+                    label: 'Adopciones',
+                    data: [@Html.Raw(ViewBag.MesesDatos)],
+                    borderColor: '#5cb85c',
+                    backgroundColor: 'rgba(92, 184, 92, 0.1)',
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            stepSize: 1
+                        }
+                    }
+                }
+            }
+        });
+        </text>
+    }
+</script>

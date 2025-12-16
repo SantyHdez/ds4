@@ -1,0 +1,127 @@
+﻿@model AdopcionMascotas.Models.Mascota
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Mascota</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Refugio.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Refugio.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Especie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Especie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Raza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Raza)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Edad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Edad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sexo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sexo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tamanio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tamanio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Descripcion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FotoUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FotoUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaRegistro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaRegistro)
+        </dd>
+
+    </dl>
+    <div class="text-center" style="margin-top: 30px;">
+        @if (Model.Estado == "Disponible")
+        {
+            <a href="@Url.Action("Solicitar", "Solicitudes", new { id = Model.Id })" class="btn btn-success btn-lg">
+                <i class="glyphicon glyphicon-heart"></i> Solicitar Adopción
+            </a>
+        }
+        else if (Model.Estado == "En Proceso")
+        {
+            <div class="alert alert-warning">
+                <i class="glyphicon glyphicon-time"></i> Esta mascota tiene solicitudes en proceso.
+            </div>
+        }
+        else if (Model.Estado == "Adoptado")
+        {
+            <div class="alert alert-success">
+                <i class="glyphicon glyphicon-ok"></i> Esta mascota ya fue adoptada.
+            </div>
+        }
+    </div>
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

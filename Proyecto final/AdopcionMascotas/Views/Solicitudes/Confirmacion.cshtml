@@ -1,0 +1,75 @@
+﻿@model AdopcionMascotas.Models.Solicitud
+
+@{
+    ViewBag.Title = "Solicitud Enviada";
+}
+
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">
+        <div class="panel panel-success">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 20px 0;">
+                    <i class="glyphicon glyphicon-ok-circle" style="font-size: 72px;"></i>
+                </h2>
+                <h3>¡Solicitud Enviada Exitosamente!</h3>
+            </div>
+            <div class="panel-body">
+                <div class="alert alert-success">
+                    <strong>¡Gracias por tu interés en adoptar!</strong>
+                    <p>Tu solicitud ha sido recibida y está siendo procesada.</p>
+                </div>
+
+                <h4>Detalles de tu solicitud:</h4>
+                <hr />
+
+                <dl class="dl-horizontal">
+                    <dt>Número de Solicitud:</dt>
+                    <dd>@Model.Id</dd>
+
+                    <dt>Mascota:</dt>
+                    <dd>@Model.Mascota.Nombre (@Model.Mascota.Especie)</dd>
+
+                    <dt>Solicitante:</dt>
+                    <dd>@Model.Usuario.NombreCompleto</dd>
+
+                    <dt>Email:</dt>
+                    <dd>@Model.Usuario.Email</dd>
+
+                    <dt>Teléfono:</dt>
+                    <dd>@Model.Usuario.Telefono</dd>
+
+                    <dt>Fecha de Solicitud:</dt>
+                    <dd>@Model.FechaSolicitud.ToString("dd/MM/yyyy HH:mm")</dd>
+
+                    <dt>Estado:</dt>
+                    <dd><span class="label label-warning">@Model.Estado</span></dd>
+                </dl>
+
+                @if (!string.IsNullOrEmpty(Model.Comentarios))
+                {
+                    <h5>Tus comentarios:</h5>
+                    <p class="well">@Model.Comentarios</p>
+                }
+
+                <div class="alert alert-info">
+                    <i class="glyphicon glyphicon-info-sign"></i>
+                    <strong>Próximos pasos:</strong>
+                    <ul style="margin-top: 10px; margin-bottom: 0;">
+                        <li>Nuestro equipo revisará tu solicitud en las próximas 24-48 horas</li>
+                        <li>Te contactaremos al correo <strong>@Model.Usuario.Email</strong></li>
+                        <li>Prepararemos una entrevista para conocerte mejor</li>
+                    </ul>
+                </div>
+
+                <div class="text-center" style="margin-top: 30px;">
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-primary btn-lg">
+                        <i class="glyphicon glyphicon-home"></i> Volver al Inicio
+                    </a>
+                    <a href="@Url.Action("Index", "Mascotas")" class="btn btn-default btn-lg">
+                        <i class="glyphicon glyphicon-th-list"></i> Ver Más Mascotas
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

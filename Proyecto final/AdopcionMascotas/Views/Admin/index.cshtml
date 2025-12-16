@@ -1,0 +1,174 @@
+﻿@{
+    ViewBag.Title = "Panel de Administración";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>
+            <i class="glyphicon glyphicon-dashboard"></i> Panel de Administración
+        </h2>
+        <hr />
+    </div>
+</div>
+
+<!-- Estadísticas de Mascotas -->
+<div class="row">
+    <div class="col-md-12">
+        <h3><i class="glyphicon glyphicon-list"></i> Mascotas</h3>
+    </div>
+</div>
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-md-3">
+        <div class="panel panel-primary">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.TotalMascotas</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Total Mascotas</strong>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.MascotasDisponibles</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Disponibles</strong>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-warning">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.MascotasEnProceso</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>En Proceso</strong>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-info">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.MascotasAdoptadas</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Adoptadas</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Estadísticas de Solicitudes -->
+<div class="row">
+    <div class="col-md-12">
+        <h3><i class="glyphicon glyphicon-envelope"></i> Solicitudes</h3>
+    </div>
+</div>
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.TotalSolicitudes</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Total Solicitudes</strong>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-warning">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.SolicitudesPendientes</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Pendientes</strong>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.SolicitudesAprobadas</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Aprobadas</strong>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-danger">
+            <div class="panel-heading text-center">
+                <h2 style="margin: 10px 0;">@ViewBag.SolicitudesRechazadas</h2>
+            </div>
+            <div class="panel-body text-center">
+                <strong>Rechazadas</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Accesos Rápidos -->
+<div class="row">
+    <div class="col-md-12">
+        <h3><i class="glyphicon glyphicon-th"></i> Accesos Rápidos</h3>
+    </div>
+</div>
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-md-3">
+        <a href="@Url.Action("Index", "Mascotas")" class="btn btn-primary btn-lg btn-block" style="padding: 30px;">
+            <i class="glyphicon glyphicon-list-alt" style="font-size: 36px;"></i>
+            <br /><br />
+            Ver Mascotas
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Create", "Mascotas")" class="btn btn-success btn-lg btn-block" style="padding: 30px;">
+            <i class="glyphicon glyphicon-plus" style="font-size: 36px;"></i>
+            <br /><br />
+            Agregar Mascota
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Solicitudes", "Admin")" class="btn btn-warning btn-lg btn-block" style="padding: 30px;">
+            <i class="glyphicon glyphicon-envelope" style="font-size: 36px;"></i>
+            <br /><br />
+            Gestionar Solicitudes
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="@Url.Action("Reportes", "Admin")" class="btn btn-info btn-lg btn-block" style="padding: 30px;">
+            <i class="glyphicon glyphicon-stats" style="font-size: 36px;"></i>
+            <br /><br />
+            Ver Reportes
+        </a>
+    </div>
+</div>
+
+<!-- Mascotas por Especie -->
+<div class="row">
+    <div class="col-md-12">
+        <h3><i class="glyphicon glyphicon-tag"></i> Distribución por Especie</h3>
+    </div>
+</div>
+<div class="row" style="margin-bottom: 30px;">
+    <div class="col-md-4">
+        <div class="well text-center">
+            <h3 style="color: #ff9800;">@ViewBag.TotalPerros</h3>
+            <p><strong>Perros</strong></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="well text-center">
+            <h3 style="color: #9c27b0;">@ViewBag.TotalGatos</h3>
+            <p><strong>Gatos</strong></p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="well text-center">
+            <h3 style="color: #2196f3;">@ViewBag.TotalOtros</h3>
+            <p><strong>Otros</strong></p>
+        </div>
+    </div>
+</div>
